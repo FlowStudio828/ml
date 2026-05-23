@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>MazeLine赞助</title>
+    <style>
+        /* CSS仅保留按钮圆角，无其他调整 */
+        .btn { border-radius: 8px; }
+    </style>
+</head>
+<body>
+    <h1>MazeLine赞助</h1>
+    <p>支持我们：<a href="https://afdian.com/a/MazeLine" target="_blank">爱发电平台</a></p>
+    
+    <!-- 跳转爱发电按钮 -->
+    <button class="btn" onclick="window.open('https://afdian.com/a/MazeLine')">点击跳转支持</button>
+    
+    <p>微信收款码</p>
+    <!-- 展示微信收款码按钮（假设图片路径正确） -->
+    <button class="btn" onclick="document.getElementById('qrcode').style.display='block'">微信收款码</button>
+    <img id="qrcode" src="/weixin.jpeg" style="display:none; margin-top:10px;" alt="微信收款码">
+
+    <script>
+        // 仅保留空脚本，不添加额外逻辑
+    </script>
+</body>
+</html>
